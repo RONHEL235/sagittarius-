@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
         <div className="top">
-            <img src={assets.menu_icon} alt="" />
+            <img className="menu" src={assets.menu_icon} alt="" />
             <div className="new-chat">
                 <img src={assets.plus_icon} alt="" />
                 <p>New Chat</p>
@@ -18,8 +18,20 @@ const Sidebar = () => {
                 </div>
             </div>
         </div>
-        <div className="bottom">
 
+        <div className="bottom">
+            <div className="bottom-item recent-entry">
+                <img src={assets.question_icon} alt="" />
+                <p>Help</p>
+            </div>
+            <div className="bottom-item recent-entry">
+                <img src={assets.history_icon} alt="" />
+                <p>Activity</p>
+            </div>
+            <div className="bottom-item recent-entry">
+                <img src={assets.setting_icon} alt="" />
+                <p>Settings</p>
+            </div>
         </div>    
 
     </div>
