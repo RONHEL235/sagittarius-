@@ -10,7 +10,7 @@ const Main = () => {
         </div>
         <div className="main-container">
             <div className="greet">
-                <p><span>Hello, Dev</span></p>
+                <p><span>Hello, Human</span></p>
                 <p>How can i help you today</p>
             </div>
             <div className="cards">
