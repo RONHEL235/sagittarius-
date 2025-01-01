@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #f0f4f9;
+    padding: 10px;
 }
 
 .sidebar img {
@@ -13,13 +14,12 @@
 .sidebar .menu {
     display: block;
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 10px;
     cursor: pointer; 
 }
 
 .sidebar .new-chat {
    margin-top: 50px;
-   margin-left: 10px;
    display: inline-flex;
    align-items: center;
    gap: 10px;
