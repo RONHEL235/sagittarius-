@@ -46,7 +46,7 @@ const Main = () => {
                         <p>{recentPrompt}</p>
                     </div>
                     <div className="result-data">
-                        <img src={assets.s} alt="" />
+                        <img src={assets.gemini_icon} alt="" />
                         {loading? 
                         <div className="loader">
                             <hr />
